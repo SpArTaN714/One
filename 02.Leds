@@ -4,12 +4,12 @@ main()
     float R1, R2, R3, RF, V;
     int E;
     printf("CALCULAR EL VALOR DE LAS RESISTENCIAS\n");
-    printf ("¿QUE LED OCUPARA?:\n");
+    printf ("Â¿QUE LED OCUPARA?:\n");
 		printf ("VERDE(1)\n");
 		printf ("BLANCO(2)\n");
 		printf ("ROJO(3)\n");
 		scanf ("%d", &E);
-    printf("¿QUE VOLTAJE OCUPARA?:");
+    printf("Â¿QUE VOLTAJE OCUPARA?:");
     scanf("%f", &V);
     switch(E)
     {
